@@ -1,3 +1,4 @@
+/* Start Public Style */
 @font-face {
       font-family: "iransans";
       src: url("./fonts/iransans-fa.ttf");
@@ -9,3 +10,95 @@
       box-sizing: border-box;
       font-family: iransans, sans-serif;
 }
+
+.container {
+      max-width: 1440px;
+      margin: 0 auto;
+}
+
+/* -----> End Public Style <----- */
+
+/* Start Header */
+header {
+      width: 100%;
+      border-bottom: 1px solid #cfcfcf;
+      align-items: center;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.logo-img {
+      width: 60px;
+}
+.logo {
+      display: flex;
+      align-items: center;
+      width: 55%;
+}
+
+.navbar {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+}
+
+.icon-header {
+      width: 20px;
+      margin-left: 10%;
+      margin-right: 10%;
+}
+
+.btn-header {
+      flex: 1 0 150px;
+      background-color: transparent;
+      border: none;
+      border-radius: 5px;
+      color: #777;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: 5px;
+      font-size: 13px;
+      padding: 10px;
+}
+
+.input-search {
+      width: 480px;
+      border: none;
+      background-color: rgb(236, 236, 236, 0.5);
+      padding: 10px 15px;
+      outline: none;
+      border-radius: 5px;
+}
+
+.btn-header:hover {
+      background-color: rgb(241, 241, 241);
+      color: rgb(51, 51, 51);
+}
+
+header hr {
+      height: 1.5rem;
+      width: 1px;
+      margin: 0 15px;
+}
+
+.btn-red {
+      background-color: #be3737;
+      color: white;
+      padding: 10px 16px;
+      flex-basis: 90px;
+}
+
+.btn-red:hover {
+      background-color: #d43e3e;
+}
+
+.logo .btn-header {
+      font-size: 16px;
+}
+
+/* -----> End Header <----- */
